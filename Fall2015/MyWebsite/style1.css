@@ -1,0 +1,59 @@
+#header {
+	font-weight: bold;
+	font-family: Verdana, sans-serif, cursive;
+
+}
+
+#wrapper_div {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #fff;
+	left: 0;
+	right: 0;
+}
+
+a div {
+	position: relative;
+}
+
+div img {
+	width: 80%;
+	position: center;
+}
+
+.menu_div {
+	position: relative;
+	width: 200px;
+	height: 60px;
+	background-color: #fff;
+	vertical-align: middle;
+	font-size: 1em;
+	font-weight: bold;
+	display: inline-block;
+	font-family: Verdana, sans-serif, cursive;
+	float: middle;
+	text-align: center;
+}
+
+div p {
+	position: relative;
+}
+
+.menu_div:hover {
+	background-color: #A3EDFF;
+}
+
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}

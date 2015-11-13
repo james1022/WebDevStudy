@@ -1,0 +1,286 @@
+html {
+	font-family: Verdana, Arial, Georgia, Times;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+div {
+	display: inline-block;
+}
+
+.wrapper {
+	position: absolute;
+	margin: auto;
+	height: 100%;
+	min-width: 100%;
+}
+
+/*****************************************/
+
+.logout {
+	text-align: right;
+	float: right;
+	font-size: 15px;
+	margin: 10px 40px -25px 0px;
+	padding-bottom: -20px;
+	display: block;
+}
+
+.logout a {
+	text-decoration: none;
+	color: gray;
+}
+
+.logo-start {
+	font-family: "Paytone One", Verdana;
+	font-weight: 300;
+	font-size: 46px;
+	letter-spacing: -2px;
+	color: #213D75;
+	text-align: center;
+}
+
+.logo {
+	font-family: "Paytone One", Verdana;
+	font-weight: 300;
+	font-size: 43px;
+	letter-spacing: -2px;
+	color: #213D75;
+	margin: 28px 0px -20px 3px;
+	display: inline-block;
+}
+
+/*****************************************/
+
+.make-account {
+	display: block;
+	text-align: center;
+	font-family: "Kaushan Script";
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 100px;
+	margin-bottom: -100px; 
+	letter-spacing: 1px;
+}
+
+.button {
+	background-color: #006FBF;
+	height: 30px;
+	padding: 6px 20px 6px 20px; 
+	text-align: center;
+	line-height: 30px;
+	font-weight: 600;
+	font-size: 15px;
+	width: 70px;
+	color: white;
+	border-radius: 5px;
+}
+
+#sign-up {
+	text-decoration: none;
+}
+
+#sign-up:hover {
+	color: orange;
+}
+
+#log-in {
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+	margin-right: 350px;
+	float: middle;
+	width: 70px;
+	height: 30px;
+}
+
+/*****************************************/
+.header {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: -17px;
+	margin-top: -15px;
+}
+
+/*****************************************/
+
+body {
+	min-width: 100%;
+	min-height: 95%;
+}
+
+#content {
+	width: 100%;
+	position: relative;
+	min-height: 75%;
+	margin-bottom: 0px;
+}
+
+.sign-in-message {
+	margin-top: 25px;
+	color: black;
+	font: 300 24px/26px "Kaushan Script";
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+/*****************************************/
+
+#footer {
+	padding: 20px, 40px, 10px, 40px;
+	background: #214C75;
+	font-size: 0;
+	position: relative;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	clear: both;
+}
+
+#footer .footer_left {
+	width: 65%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#footer .footer_right {
+	width: 35%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+}
+
+#footer div img {
+	display: inline-block;
+	vertical-align: top;
+	margin: 24px 5px 18px 7px;
+	white-space: nowrap;
+	text-align: left;
+	line-height: 18px;
+}
+
+#footer .footer_copyright {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	white-space: nowrap;
+	color: white;
+	font-size: 10px;
+	line-height: 18px;
+	margin: 22px 5px 22px 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+#footer .footer_nav {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 2px;
+	padding: 0;
+	list-style: none;
+	padding-left: 20px;
+}
+
+#footer .footer_nav li.footer_nav-item {
+	margin-top: 0px;
+	display: inline-block;
+}
+
+#footer .footer_nav a img {
+	margin-top: 10px;
+}
+
+#footer .footer_nav li.footer_nav-item:hover {
+	opacity: 0.3;
+}
+
+#footer .footer_nav li {
+	margin: 0 28px 0 0;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#footer .footer_nav li a {
+	color: #fff;
+	margin: 0 0 12px 0;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 240px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+#login-box {
+	/*display: inline-block;*/
+	/*margin: 10px 200px 10px 200px;*/
+	display: block;
+	position: relative;
+	margin-bottom: -100px;
+
+
+}
+
+.account-info {
+  padding: 20px 20px 0 20px;
+}
+.account-info label {
+  color: #395870;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.account-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
+.account-action {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 20px;
+}
+.account-action .btn {
+  background: linear-gradient(#49708f, #293f50);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  float: left;
+  padding: 8px 16px;
+}
+.account-action label {
+  color: #7c7c80;
+  font-size: 12px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
